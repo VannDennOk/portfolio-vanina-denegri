@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanina Denegri Portfolio Front End</title>
+    <meta name="author" content="Vanina Denegri">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./lib/portfolio_icons_font/styles.css">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <span class="logo">VD</span>
+        <button class="abrir-menu" id="abrir-menu"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar-menu"><i class="bi bi-x-lg"></i></button>
+            <ul class="nav__list">
+                <li><a href="#aboutme">Sobre mi</a></li>
+                <li><a href="#services">Mis servicios</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#studies">Formación</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="container__hero">
+        <img class="container__hero_img" src="./img/hero_portrait.png" alt="retrato ilustrado de Vanina Denegri"
+            width="600">
+        <div class="container__hero_txt">
+            <h1 class="headline xlarge">Hola! Mi nombre es <strong class="orange"> Vanina Denegri </strong>y me gusta
+                construir páginas web</h1>
+            <p class="txt-body large"> Apasionada por el arte en todas sus formas, hoy surfeo el mundo IT y participo
+                del proyecto <b class="black"> Oracle ONE </b> en Alura Latam.</p>
+            <div class="container__hero_social">
+                <div class="container__hero_social-icons">
+                    <a href="https://www.linkedin.com/in/vaninadenegri/" target="_blank"
+                        class="btn__icon-full btn-hover"><i class="icon ico-linkedin"></i></a>
+                    <a href="https://github.com/VannDennOk" target="_blank" class="btn__icon-full btn-hover"><i
+                            class="icon ico-github"></i></a>
+                </div>
+                <a href="./docs/CV - Denegri Vanina.pdf" download="CV - Denegri Vanina.pdf"
+                    class="btn__txt btn-hover">Descargar CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE MI / ABOUT ME -->
+    <section class="container__aboutme" id="aboutme">
+        <div class="container__aboutme-box">
+            <h2 class="headline large">Sobre mí</h2>
+            <p class="txt-body medium">
+                De formación soy Licenciada y Profesora en Artes (UBA), además de ser Diseñadora de Productos (ORT).
+                <b class="black"> Actualmente estoy incursionando en el mundo IT.</b>
+                <br><br>
+                Hice cursos de
+                <b class="black"> Diseño UX/UI</b>,
+                <b class="black"> Testing QA</b> y
+                <b class="black"> Front End</b>. Pero es en el desarrollo de páginas web dónde encontré que puedo unir
+                mi pasión y mis conocimientos en arte y diseño, todo desde un aspecto tecnológico.
+                <b class="black"> Quiero crear sitios que se adapten a las necesidades de los usuarios, que sean
+                    creativos y atractivos, pero sin perder de vista la accesibilidad y la eficiencia de los mismos.</b>
+                <br><br>
+                Me considero una persona en
+                <b class="black"> constante desarrollo</b>, soy curiosa y por ende un poco ecléctica. Tengo una gran
+                ética laboral, soy responsable y orientada a la resolución de problemas, pero también practico mi
+                adaptabilidad y por eso trato de prestar mucha atención a las nuevas tecnologías.
+                <br><br>
+                Espero que les guste mi trabajo!
+                <b class="black"> Aún soy principiante, pero vine a dejar huella!</b>
+            </p>
+        </div>
+    </section>
+
+    <!-- MIS SERVICIOS / MY SERVICES -->
+    <section class="container__services">
+        <div class="header__section" id="services">
+            <p class="headline large withe">Mis servicios</p>
+        </div>
+        <div class="container__services-area">
+            <div class="container__services-scroll">
+                <div class="container__services-servicebox">
+                    <img class="service_img" src="./img/serv_webdesign.png" alt="ilustración pantalla pc diseño web">
+                    <p class="headline medium">Diseño web</p>
+                    <p class="txt-body medium center">
+                        Diseños responsivos.<br>
+                        Accesibilidad.<br>
+                        Pensando en las necesidades de los
+                        <br>usuarios y los clientes.
+                    </p>
+                </div>
+                <div class="container__services-servicebox">
+                    <img class="service_img" src="./img/serv_uxuidesign.png" alt="ilustración pantalla pc diseño ux ui">
+                    <p class="headline medium">Diseño UX / UI</p>
+                    <p class="txt-body medium center">
+                        Design Thinking.<br>
+                        Investigación.<br>
+                        Usabilidad y MVP.<br>
+                        Wireframes.<br>
+                        UI Kit.</p>
+                </div>
+                <div class="container__services-servicebox">
+                    <img class="service_img" src="./img/serv_appdesign.png"
+                        alt="ilustración pantalla móvil diseño aplicaciones">
+                    <p class="headline medium">Diseño de Apps</p>
+                    <p class="txt-body medium center">
+                        Diseños responsivos.<br>
+                        Navegabilidad.<br>
+                        Accesibilidad.<br>
+                        Usabilidad.<br>
+                        Prototipado.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HABILIDADES / SKILLS -->
+    <section class="container__skills" id="skills">
+        <div class="header__section">
+            <p class="headline large withe">Habilidades</p>
+        </div>
+        <div class="container__skills-area">
+            <div class="container__skills-scroll">
+                <span class="skill_box bc-red">
+                    <i class="icon ico-html5 icon-xl"></i>
+                    <p class="headline medium">HTML 5</p>
+                </span>
+                <span class="skill_box bc-lightblue">
+                    <i class="icon ico-css3 icon-xl"></i>
+                    <p class="headline medium">CSS 3</p>
+                </span>
+                <span class="skill_box bc-yellow">
+                    <i class="icon ico-js icon-xl"></i>
+                    <p class="headline medium">Java Script</p>
+                </span>
+                <span class="skill_box bc-purple">
+                    <i class="icon ico-figma icon-xl"></i>
+                    <p class="headline medium">FIGMA</p>
+                </span>
+                <span class="skill_box bc-orange">
+                    <i class="icon ico-vector icon-xl"></i>
+                    <p class="headline medium">Vector</p>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROYECTOS / PROJECTS -->
+    <section class="container__projects" id="projects">
+        <div class="header__section">
+            <p class="headline large withe">Proyectos</p>
+        </div>
+        <!-- JUEGO NUMERO SECRETO -->
+        <div class="container__projects-projectbox-left">
+            <img class="project_img" src="./img/proj_numerosecreto.png" alt="portada juego número secreto" width="600">
+            <div class="container__projects-projectbox-txt">
+                <p class="headline medium">Juego Número Secreto</p>
+                <p class="txt-body medium">
+                    Proyecto realizado en la Formación de Principiante en Programación en el programa ONE de Alura Latam
+                    + Oracle.
+                    <br><br>Compite con la computadora para adivinar el número secreto!
+                </p>
+                <div class="container__projects-projectbox-btn">
+                    <a href="https://github.com/VannDennOk/juego-numero-secreto.git" target="_blank"
+                        class="btn__txt btn-hover">Repositorio</a>
+                    <a href="https://vanndennok.github.io/juego-numero-secreto/#" target="_blank"
+                        class="btn__txt-full btn-hover">Demo</a>
+                    <!--  <a href="#" class="btn__icon-full btn-hover"><i class="icon_download ico-figma"></i>
+                    </a> --> <!-- Este proyecto no tiene figma -->
+                </div>
+            </div>
+        </div>
+        <!-- ENCRIPTADOR DE TEXTO -->
+        <div class="container__projects-projectbox-right">
+            <div class="container__projects-projectbox-txt">
+                <p class="headline medium">Encriptador de texto</p>
+                <p class="txt-body medium">
+                    Proyecto realizado para el Challenge ONE de Alura 2024.
+                    <br><br>
+                    La aplicación permite encriptar y desencriptar un texto para mandarte mensajes secretos con tus
+                    amigos. Te animás a enviarme un mensaje secreto?
+                </p>
+                <div class="container__projects-projectbox-btn">
+                    <a href="https://github.com/VannDennOk/alura-encriptador-texto-v3.git" target="_blank"
+                        class="btn__txt btn-hover">Repositorio</a>
+                    <a href="https://vanndennok.github.io/alura-encriptador-texto-v3" target="_blank"
+                        class="btn__txt-full btn-hover">Demo</a>
+                    <a href="https://www.figma.com/design/tf36fFk7DaSxRftQbOx7c8/Alura-Challenge---Desaf%C3%ADo-ONE---VD?node-id=412364-94&t=XU5poJe1DFVj6WE1-4"
+                        target="_blank" class="btn__icon-full btn-hover"><i class="icon_download ico-figma"></i>
+                    </a>
+                </div>
+            </div>
+            <img class="project_img" src="./img/proj_encriptador.png" alt="portada encriptador de texto" width="600">
+        </div>
+    </section>
+
+    <!-- FORMACIÓN / STUDIES -->
+    <section class="container__studies" id="studies">
+        <div class="header__section">
+            <p class="headline large withe">Formación</p>
+        </div>
+        <div class="container__studies-area">
+            <div class="container__studies-study">
+                <img class="studies_img" src="./img/logo_AHPF.png" alt=" Logo agencia de Habilidades" width="80">
+                <div class="container__studies-study-txt">
+                    <p class="headline medium">Front End con JS</p>
+                    <p class="txt-body medium">
+                        2024 (en curso) - Agencia de habilidades para el futuro, Min. Ed. CABA
+                    </p>
+                </div>
+            </div>
+            <div class="container__studies-study">
+                <img class="studies_img" src="./img/logo_oracleAlura.png" alt=" Logo agencia de Oracle + Alura"
+                    width="80">
+                <div class="container__studies-study-txt">
+                    <p class="headline medium">Formación en Front End ONE</p>
+                    <p class="txt-body medium">
+                        2024 (en curso) - Alura Latam + Oracle
+                    </p>
+                </div>
+            </div>
+            <div class="container__studies-study">
+                <img class="studies_img" src="./img/logo_oracleAlura.png" alt=" Logo agencia de Oracle + Alura"
+                    width="80">
+                <div class="container__studies-study-txt">
+                    <p class="headline medium">Formación Principiante en Programación ONE</p>
+                    <p class="txt-body medium">
+                        2024 - Alura Latam + Oracle
+                    </p>
+                </div>
+            </div>
+            <div class="container__studies-study">
+                <img class="studies_img" src="./img/logo_AHPF.png" alt=" Logo agencia de Habilidades" width="80">
+                <div class="container__studies-study-txt">
+                    <p class="headline medium">Testing QA y Automatización</p>
+                    <p class="txt-body medium">
+                        2024 - Agencia de habilidades para el futuro, Min. Ed. CABA
+                    </p>
+                </div>
+            </div>
+            <div class="container__studies-study">
+                <img class="studies_img" src="./img/logo_AHPF.png" alt=" Logo agencia de Habilidades" width="80">
+                <div class="container__studies-study-txt">
+                    <p class="headline medium">Diseño UX/UI</p>
+                    <p class="txt-body medium">
+                        2023 - Agencia de habilidades para el futuro, Min. Ed. CABA
+                    </p>
+                </div>
+            </div>
+            <div class="container__studies-study">
+                <img class="studies_img" src="./img/logo_AHPF.png" alt=" Logo agencia de Habilidades" width="80">
+                <div class="container__studies-study-txt">
+                    <p class="headline medium">Programación Inicial - CaC</p>
+                    <p class="txt-body medium">
+                        2023 - Agencia de habilidades para el futuro, Min. Ed. CABA
+                    </p>
+                </div>
+            </div>
+            <div class="container__studies-study">
+                <img class="studies_img" src="./img/logo_uba.png" alt=" Logo UBA" width="80">
+                <div class="container__studies-study-txt">
+                    <p class="headline medium">Licenciada y Profesora en Artes. Orientación Artes Plásticas</p>
+                    <p class="txt-body medium">
+                        2022 - Universidad de Buenos Aires
+                    </p>
+                </div>
+            </div>
+            <div class="container__studies-study">
+                <img class="studies_img" src="./img/logo_ort.png" alt=" Logo UBA" width="80">
+                <div class="container__studies-study-txt">
+                    <p class="headline medium">Diseñadora de Productos</p>
+                    <p class="txt-body medium">
+                        2005 - ORT Argentina
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO / CONTACT -->
+    <section class="container__contact" id="contact">
+        <div class="header__section">
+            <p class="headline large withe">Contacto</p>
+        </div>
+        <div class="container__contact-area">
+            <div class="container__contact-topleft">
+                <img class="contact_img" src="./img/cont_callme.png" alt="Ilustración mujer hablando por teléfono"
+                    width="200">
+                <div class="container__contact-social">
+                    <div class="container__contact-social-line">
+                        <a href="https://www.linkedin.com/in/vaninadenegri/" target="_blank"
+                            class="btn__icon-full btn-hover"><i class="icon ico-linkedin"></i></a>
+                        <p class="txt-body small">/vaninadenegri</p>
+                    </div>
+                    <div class="container__contact-social-line">
+                        <a href="https://github.com/VannDennOk" target="_blank" class="btn__icon-full btn-hover"><i
+                                class="icon ico-github"></i></a>
+                        <p class="txt-body small">/VannDennOk</p>
+                    </div>
+                    <div class="container__contact-social-line">
+                        <a href="https://maps.app.goo.gl/ZvuPV2B1bHpnACmp9" target="_blank"
+                            class="btn__icon-full btn-hover"><i class="icon ico-place"></i></a>
+                        <p class="txt-body small">CABA, Argentina</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container__contact-form">
+                <p class="txt-body medium">
+                    Si te gustó mi trabajo, tenés alguna duda o simplemente querés dejarme un comentario bonito, no
+                    dudes en escribirme! Podés mandarme un mensaje por este medio o contactarme por las redes sociales.
+                </p>
+                <form action="https://formspree.io/f/mjkvbbak" method="POST">
+                    <label for="name"></label>
+                    <input type="text" name="name" id="name" class="input" placeholder="Nombre *" required>
+
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email" class="input" placeholder="E-mail *" equired>
+
+                    <label for="subjet"></label>
+                    <input type="text" name="subjet" id="subjet" class="input" placeholder="Asunto">
+
+                    <label for="message"></label>
+                    <textarea name="message" id="message" rows="10" cols="30" placeholder="Mensaje *"
+                        required></textarea>
+
+                    <input type="submit" value="Enviar" class="btn__txt-full btn-hover fullwidth">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- BOTON ARRIBA / GO TOP BUTTON -->
+    
+    <div class="btn-up btn-hover" id="btn-up">
+            <i class="bi bi-chevron-up"></i></i>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p class="txt-body small withe center">© Vanina Denegri | 2024</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
