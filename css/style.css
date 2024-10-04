@@ -100,6 +100,11 @@ header {
     text-decoration: none;
     font-family: var(--font-body);
     color: var(--color-withe);
+    cursor: pointer;
+}
+
+.nav__list li a:hover {
+    color: var(--color-yellow);
 }
 
 .abrir-menu,
@@ -168,6 +173,7 @@ header {
     justify-content: center;
     padding: 0.5rem 0;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .btn__txt {
@@ -185,6 +191,8 @@ header {
     font-size: 1.5rem;
     font-weight: 500;
     padding: 0 1rem;
+
+    cursor: pointer;
 }
 
 .btn__txt-full {
@@ -202,6 +210,8 @@ header {
     font-size: 1.5rem;
     font-weight: 500;
     padding: 0 1em;
+
+    cursor: pointer;
 }
 
 .fullwidth {
