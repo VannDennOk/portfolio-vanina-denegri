@@ -2,7 +2,7 @@
 
 <p align="center"><img src="./img/portada.png" alt="vista del potfolio en distintos dispositivos" width="1000"></p>
 
-<h2>Estado</h2>
+<h2>Estado :battery:</h2>
 
 <p align="left"><img src="https://img.shields.io/badge/STATUS-EN_DESARROLLO-0B8E36?style=flat-square"></p>
 
