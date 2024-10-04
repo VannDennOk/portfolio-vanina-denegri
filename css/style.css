@@ -262,7 +262,7 @@ header {
 /* SOBRE MÍ / ABOUT ME (DESKTOP) */
 
 .container__aboutme {
-    background-image: url("/img/back_flores.png");
+    background-image: url("../img/back_flores.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -310,7 +310,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url("/img/back_fig1.svg");
+    background-image: url("../img/back_fig1.svg");
     background-repeat: no-repeat;
     background-position: left;
     background-size: contain;
@@ -353,7 +353,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url("/img/back_fig2.svg");
+    background-image: url("../img/back_fig2.svg");
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
