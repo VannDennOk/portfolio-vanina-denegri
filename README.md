@@ -11,6 +11,7 @@
 <p align="left">
 <img src="https://img.shields.io/badge/HTML_5-E34F26?style=flat-square&logo=html5&logoColor=FFFFFF"> <img src="https://img.shields.io/badge/CSS_3-1572B6?style=flat-square&logo=css3&logoColor=FFFFFF"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=FFFFFF">
 <br>
+<br>
 <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=FFFFFF"> <img src="https://img.shields.io/badge/CorelDraw-000000?style=flat-square&logo=coreldraw&logoColor=FFFFFF"> <img src="https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=flat-square&logo=adobeillustrator&logoColor=FFFFFF">
 </p>
 
@@ -32,8 +33,7 @@ Quise hacer un diseño que muestre mi estilo personal y mis habilidades en el di
 
 <h3>Requisitos :clipboard:</h3>
 <p>:heavy_check_mark: Diseño responsivo.
-<br>:heavy_check_mark: Navegabilidad: el proyecto debe contener una barra de navegación
-<br>    con links que direccionen a cada una de las secciones del portafolio.
+<br>:heavy_check_mark: Navegabilidad: el proyecto debe contener una barra de navegación con links que direccionen a cada una de las secciones del portafolio.
 <br>:heavy_check_mark: Debe incluir distintas secciones: sobre mi, habilidades, formación, etc.
 <br>:heavy_check_mark: Debe tener un formulario de contacto funcional.
 <br>:heavy_check_mark: El formulario debe tener elementos de validación para no dejar campos vacíos.
@@ -50,8 +50,8 @@ Quise hacer un diseño que muestre mi estilo personal y mis habilidades en el di
 <p>
 <br>
 <a href="https://github.com/VannDennOk/portfolio-vanina-denegri.git">
-<img src="https://img.shields.io/badge/Repositorio-181717?logo=github&logoColor=ffffff&link=https%3A%2F%2Fgithub.com%2FVannDennOk%2Fportfolio-vanina-denegri.git"></a> <a href="https://vanndennok.github.io/portfolio-vanina-denegri/">
-<img src="https://img.shields.io/badge/Demo-222222?logo=githubpages&logoColor=ffffff&link=https%3A%2F%2Fvanndennok.github.io%2Fportfolio-vanina-denegri%2F"></a> <a href="https://www.figma.com/design/cuLTiolsfN1sbfnfVfO29h/Portafolio-Alura?node-id=125911-238&t=LsfUs3421X2OlQ3G-1"><img src="https://img.shields.io/badge/Dise%C3%B1o-F24E1E?logo=figma&logoColor=ffffff&link=https%3A%2F%2Fwww.figma.com%2Fdesign%2FcuLTiolsfN1sbfnfVfO29h%2FPortafolio-Alura%3Fnode-id%3D125911-238%26t%3DLsfUs3421X2OlQ3G-1"></a>
+<img src="https://img.shields.io/badge/Repositorio-181717?style=flat-square&logo=github&logoColor=ffffff&link=https%3A%2F%2Fgithub.com%2FVannDennOk%2Fportfolio-vanina-denegri.git"></a> <a href="https://vanndennok.github.io/portfolio-vanina-denegri/">
+<img src="https://img.shields.io/badge/Demo-222222?style=flat-square&logo=githubpages&logoColor=ffffff&link=https%3A%2F%2Fvanndennok.github.io%2Fportfolio-vanina-denegri%2F"></a> <a href="https://www.figma.com/design/cuLTiolsfN1sbfnfVfO29h/Portafolio-Alura?node-id=125911-238&t=LsfUs3421X2OlQ3G-1"><img src="https://img.shields.io/badge/Dise%C3%B1o-F24E1E?style=flat-square&logo=figma&logoColor=ffffff&link=https%3A%2F%2Fwww.figma.com%2Fdesign%2FcuLTiolsfN1sbfnfVfO29h%2FPortafolio-Alura%3Fnode-id%3D125911-238%26t%3DLsfUs3421X2OlQ3G-1"></a>
 </p>
 
 <h2>Autoría :woman:</h2>
@@ -87,6 +87,5 @@ Herramientas utilizadas en este README:
 <p>Estos son mis primeros proyectos. Aún me quedan muchas cosas por aprender y mejorar. Si tenés algún comentario para ayudarme a crecer lo recibiré atentamente, siempre y cuando venga con respeto.</p>
 
 <h2>Licencia :warning:</h2>
-<br>
 <a href="https://opensource.org/license/MIT"><img src="https://img.shields.io/badge/Licencia%20MIT-E30613?style=flat-square&link=https%3A%2F%2Fopensource.org%2Flicense%2FMIT"></a></p>
 
