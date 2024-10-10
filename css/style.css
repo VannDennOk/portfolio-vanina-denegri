@@ -465,6 +465,7 @@ header {
 
 .project_img {
     width: 55%;
+    border: 2px solid var(--color-black);
 }
 
 .container__projects-projectbox-txt {
